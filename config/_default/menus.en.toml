@@ -1,17 +1,9 @@
 [[main]]
-  identifier = "docs"
-  name = "Docs"
-  url = "docs"
-  weight = 1
+    name = "Home"
+    url = "/"
+    weight = 1
 
 [[main]]
-  identifier = "updates"
-  name = "Updates"
-  url = "updates"
-  weight = 2
-
-[[main]]
-  identifier = "blog"
-  name = "Blog"
-  url = "blog"
-  weight = 3
+    name = "Twitter"
+    url = "/twitter"
+    weight = 2

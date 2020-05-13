@@ -1,48 +1,46 @@
 baseURL = "/"
-title = "sbook site"
-theme = "zdoc"
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Hugo Techdoc Theme"
+theme = "techdoc"
+
+hasCJKLanguage = true
+metaDataFormat = "yaml"
 
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
-hasCJKLanguage = false
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
 
 copyright = "&copy;{year}, All Rights Reserved"
+
 timeout = 10000
 enableEmoji = true
 paginate = 13
 rssLimit = 100
 
-googleAnalytics = ""
 
-disableKinds = ["taxonomyTerm"]
 
-publishDir = "public"  # this is default
-
+# Markup configure section
+# See https://gohugo.io/getting-started/configuration-markup/
 [markup]
-  [markup.goldmark]
+    defaultMarkdownHandler = "goldmark"
     [markup.goldmark.renderer]
-      hardWraps = true
-      unsafe = true
-      xHTML = true
-  [markup.highlight]
-    codeFences = true
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = false
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
+        unsafe= true
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 4
+        ordered = false
+    [markup.highlight]
+        codeFences = true
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = false
 
-[outputs]
-  home = ["HTML", "RSS", "SearchIndex"]
-
-[outputFormats]
-  [outputFormats.SearchIndex]
-    mediaType = "application/json"
-    baseName = "index"
+# Algolia Search configure section
+[outputFormats.Algolia]
+    baseName = "algolia"
     isPlainText = true
+    mediaType = "application/json"
     notAlternative = true
-
-[taxonomies]
-  tag = "tags"

@@ -1,0 +1,16 @@
+
+# Global menu section
+# See https://gohugo.io/content-management/menus/
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Twitter"
+        url = "/twitter"
+        weight = 2
+
+
+
