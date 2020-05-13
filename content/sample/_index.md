@@ -1,47 +1,51 @@
 ---
-title: "Sample Document"
-date: 2019-10-17T15:26:15Z
+title: Sample Document
+date: '2019-10-17T15:26:15.000Z'
 draft: false
 weight: 10
-description: "this is a sample document."
+description: this is a sample document.
 ---
 
-## Header
+# \_index
 
-# H1 Header
-## H2 Header
-### H3 Header
-#### H4 Header
-##### H5 Header
-###### H6 Header
+### Header
 
-## Paragraph
+## H1 Header
+
+### H2 Header
+
+#### H3 Header
+
+**H4 Header**
+
+**H5 Header**
+
+**H6 Header**
+
+### Paragraph
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Emphasis
+### Emphasis
 
-**Lorem ipsum dolor sit amet, consectetur adipisicing** elit, sed do ~~eiusmod tempor incididunt ut labore~~ et dolore magna aliqua. Ut enim *ad minim veniam, quis nostrud exercitation* ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Lorem ipsum dolor sit amet, consectetur adipisicing** elit, sed do ~~eiusmod tempor incididunt ut labore~~ et dolore magna aliqua. Ut enim _ad minim veniam, quis nostrud exercitation_ ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-## Horizontal Rule
+### Horizontal Rule
 
----
-
-## List
+### List
 
 * Lorem ipsum dolor sit amet, consectetur adipisicing elit
 * Lorem ipsum dolor sit amet, consectetur adipisicing elit
 * Lorem ipsum dolor sit amet, consectetur adipisicing elit
-	* Lorem ipsum dolor sit amet, consectetur adipisicing elit
-	* Lorem ipsum dolor sit amet, consectetur adipisicing elit
-	* Lorem ipsum dolor sit amet, consectetur adipisicing elit
-	* Lorem ipsum dolor sit amet, consectetur adipisicing elit
+  * Lorem ipsum dolor sit amet, consectetur adipisicing elit
+  * Lorem ipsum dolor sit amet, consectetur adipisicing elit
+  * Lorem ipsum dolor sit amet, consectetur adipisicing elit
+  * Lorem ipsum dolor sit amet, consectetur adipisicing elit
+* Lorem ipsum dolor sit amet, consectetur adipisicing elit
+* Lorem ipsum dolor sit amet, consectetur adipisicing elit
+* Lorem ipsum dolor sit amet, consectetur adipisicing elit
 
-1. Lorem ipsum dolor sit amet, consectetur adipisicing elit
-2. Lorem ipsum dolor sit amet, consectetur adipisicing elit
-3. Lorem ipsum dolor sit amet, consectetur adipisicing elit
-
-## Code
+### Code
 
 ```ruby
 puts 'The best way to log and share programmers knowledge.' puts 'The best way to log and share programmers knowledge.'
@@ -56,7 +60,7 @@ puts 'The best way to log and share programmers knowledge.' puts 'The best way t
 
 inline code `#ffce44`
 
-## Blockquote
+### Blockquote
 
 > this is a blockquote. this is a blockquote. this is a blockquote. this is a blockquote. this is a blockquote. this is a blockquote.
 >
@@ -66,31 +70,32 @@ inline code `#ffce44`
 >
 > this is a blockquote.
 
-## Table
+### Table
 
 | header | header | header |
-|------------|-------------|--------------|
-| Lorem      | Lorem       | Lorem        |
-| ipsum      | ipsum       | ipsum        |
-| dolor      | dolor       | dolor        |
-| sit        | sit         | sit          |
-| amet       | amet        | amet         |
+| :--- | :--- | :--- |
+| Lorem | Lorem | Lorem |
+| ipsum | ipsum | ipsum |
+| dolor | dolor | dolor |
+| sit | sit | sit |
+| amet | amet | amet |
 
-### with alignment
+#### with alignment
 
 | Left align | Right align | Center align |
-|:-----------|------------:|:------------:|
-| This       | This        | This         |
-| column     | column      | column       |
-| will       | will        | will         |
-| be         | be          | be           |
-| left       | right       | center       |
-| aligned    | aligned     | aligned      |
+| :--- | ---: | :---: |
+| This | This | This |
+| column | column | column |
+| will | will | will |
+| be | be | be |
+| left | right | center |
+| aligned | aligned | aligned |
 
-## Image
+### Image
 
-![2 People Sitting With View of Yellow Flowers during Daytime](/images/pexels-photo-196666.jpeg "sample")
+![sample](https://github.com/iot-arch/sbook/tree/f05540c5c5336c4ca3379be5c6fb01b2e713cbbe/images/pexels-photo-196666.jpeg)
 
-## Image with link
+### Image with link
 
-[![2 People Sitting With View of Yellow Flowers during Daytime](/images/pexels-photo-196666.jpeg)](https://www.pexels.com/photo/2-people-sitting-with-view-of-yellow-flowers-during-daytime-196666/)
+[![2 People Sitting With View of Yellow Flowers during Daytime](https://github.com/iot-arch/sbook/tree/f05540c5c5336c4ca3379be5c6fb01b2e713cbbe/images/pexels-photo-196666.jpeg)](https://www.pexels.com/photo/2-people-sitting-with-view-of-yellow-flowers-during-daytime-196666/)
+

@@ -1,44 +1,46 @@
 ---
-title: "Custom Shortcodes"
-date: 2019-10-17T15:26:15Z
+title: Custom Shortcodes
+date: '2019-10-17T15:26:15.000Z'
 draft: false
 weight: 10
-description: "calling custom Shortcodes into your content files."
+description: calling custom Shortcodes into your content files.
 ---
+
+# custom-shortcodes
 
 ## Alert panel
 
-{{< panel >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+### Alert panel using Markdown \(use the `%` character\)
 
-### Alert panel using Markdown (use the `%` character)
+{
 
-{{% panel title="primary" %}}
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+} \[I'm an inline-style link with title\]\([https://www.google.com](https://www.google.com) "Google's Homepage"\)
 
-- One
-- Two
-- Three
-{{% /panel %}}
+* One
+* Two
+* Three
 
 ### Alert panel with titles and colors
 
-{{< panel title="primary" >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Button
 
-{{< button url="#" >}}primary{{< /button >}}
+primary
 
-{{< button status="success" url="#" >}}success{{< /button >}}
+success
 
-{{< button status="caution" url="#" >}}caution{{< /button >}}
+caution
 
-{{< button status="warning" url="#" >}}warning{{< /button >}}
+warning
 
-{{< button status="danger" url="#" >}}danger{{< /button >}}
+danger
 
 #### Button with Font Awesome
 
-{{< button icon="fas fa-download" url="#" >}}Download{{< /button >}}
+Download
 
-{{< button status="success" icon="fas fa-cloud-download-alt" url="#" >}}Download{{< /button >}}
+Download
+
