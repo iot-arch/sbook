@@ -37,9 +37,9 @@ figure   2 People Sitting With View of Yellow Flowers during Daytime   gist  hig
       <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
       
       <guid>https://iot-arch.github.io/sbook/sample/table-of-contents/</guid>
-      <description>Note The TableOfContents field set to true in your content’s front matter will render a table of contents.
-TableOfContents: true Setting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
-  Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+      <description>NoteThe TableOfContents field set to true in your content’s front matter will render a table of contents.
+TableOfContents: trueSetting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
+Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
@@ -48,9 +48,9 @@ TableOfContents: true Setting the built-in .TableOfContents variables can config
       <pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate>
       
       <guid>https://iot-arch.github.io/sbook/sample/search-shortcode/</guid>
-      <description>Note Search Shortcode powered by Algolia
+      <description>NoteSearch Shortcode powered by Algolia
 You can create a search page just by adding search shortcode.
-          var search = instantsearch({ indexName: &#39;hugo-demo-techdoc&#39;, searchClient: algoliasearch( &#39;7W4SAN4PLK&#39;, &#39;cbf12a63ff72d9c5dc0c10c195cf9128&#39; ), routing: true, }); const renderHits = (renderOptions, isFirstRender) = { const { hits } = renderOptions; document.querySelector(&#39;#hits&#39;).innerHTML = ` ${hits .map( item = `${ item.title }${ dayjs(item.lastmod).format(&#34;YYYY/MM/DD&#34;) } - ${ item.description ?</description>
+var search = instantsearch({indexName: &#39;hugo-demo-techdoc&#39;,searchClient: algoliasearch(&#39;7W4SAN4PLK&#39;,&#39;cbf12a63ff72d9c5dc0c10c195cf9128&#39;),routing: true,});const renderHits = (renderOptions, isFirstRender) = {const { hits } = renderOptions;document.querySelector(&#39;#hits&#39;).innerHTML = `${hits.map(item =`${ item.title }${ dayjs(item.lastmod).format(&#34;YYYY/MM/DD&#34;) } - ${ item.description ?</description>
     </item>
     
   </channel>

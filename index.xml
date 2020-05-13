@@ -43,8 +43,8 @@ Follow the following steps:
       
       <guid>https://iot-arch.github.io/sbook/post/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+▾ &amp;lt;root&amp;gt;/▾ images/logo.png should become
+▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
     <item>
@@ -90,9 +90,9 @@ figure   2 People Sitting With View of Yellow Flowers during Daytime   gist  hig
       <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
       
       <guid>https://iot-arch.github.io/sbook/sample/table-of-contents/</guid>
-      <description>Note The TableOfContents field set to true in your content’s front matter will render a table of contents.
-TableOfContents: true Setting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
-  Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
+      <description>NoteThe TableOfContents field set to true in your content’s front matter will render a table of contents.
+TableOfContents: trueSetting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
+Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
     <item>
@@ -132,7 +132,7 @@ aaa</description>
       <guid>https://iot-arch.github.io/sbook/getting-started/configuration/</guid>
       <description>You may specify options in config.toml (or config.yaml/config.json) of your site to make use of this theme’s features.
 For an example of config.toml, see config.toml in exampleSite.
-Params # Source Code repository section description = &amp;quot;put your description&amp;quot; github_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot; version = &amp;quot;0.9.0&amp;quot; # Documentation repository section # documentation repository (set edit link to documentation repository) github_doc_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot; # Analytic section google_analytics_id = &amp;quot;&amp;quot; # Your Google Analytics tracking id tag_manager_container_id = &amp;quot;&amp;quot; # Your Google Tag Manager container id google_site_verification = &amp;quot;&amp;quot; # Your Google Site Verification for Search Console # Open Graph and Twitter Cards settings section # Open Graph settings for each page are set on the front matter.</description>
+Params # Source Code repository sectiondescription = &amp;quot;put your description&amp;quot;github_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot;version = &amp;quot;0.9.0&amp;quot;# Documentation repository section# documentation repository (set edit link to documentation repository)github_doc_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot;# Analytic sectiongoogle_analytics_id = &amp;quot;&amp;quot; # Your Google Analytics tracking idtag_manager_container_id = &amp;quot;&amp;quot; # Your Google Tag Manager container idgoogle_site_verification = &amp;quot;&amp;quot; # Your Google Site Verification for Search Console# Open Graph and Twitter Cards settings section# Open Graph settings for each page are set on the front matter.</description>
     </item>
     
     <item>
@@ -179,9 +179,9 @@ It makes use of a variety of open source projects including:
       <pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate>
       
       <guid>https://iot-arch.github.io/sbook/sample/search-shortcode/</guid>
-      <description>Note Search Shortcode powered by Algolia
+      <description>NoteSearch Shortcode powered by Algolia
 You can create a search page just by adding search shortcode.
-          var search = instantsearch({ indexName: &#39;hugo-demo-techdoc&#39;, searchClient: algoliasearch( &#39;7W4SAN4PLK&#39;, &#39;cbf12a63ff72d9c5dc0c10c195cf9128&#39; ), routing: true, }); const renderHits = (renderOptions, isFirstRender) = { const { hits } = renderOptions; document.querySelector(&#39;#hits&#39;).innerHTML = ` ${hits .map( item = `${ item.title }${ dayjs(item.lastmod).format(&#34;YYYY/MM/DD&#34;) } - ${ item.description ?</description>
+var search = instantsearch({indexName: &#39;hugo-demo-techdoc&#39;,searchClient: algoliasearch(&#39;7W4SAN4PLK&#39;,&#39;cbf12a63ff72d9c5dc0c10c195cf9128&#39;),routing: true,});const renderHits = (renderOptions, isFirstRender) = {const { hits } = renderOptions;document.querySelector(&#39;#hits&#39;).innerHTML = `${hits.map(item =`${ item.title }${ dayjs(item.lastmod).format(&#34;YYYY/MM/DD&#34;) } - ${ item.description ?</description>
     </item>
     
     <item>
