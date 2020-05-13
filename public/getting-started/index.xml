@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting Started on Security Technology Book </title>
+    <link>/getting-started/</link>
+    <description>Recent content in Getting Started on Security Technology Book </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 17 Oct 2019 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installation</title>
+      <link>/getting-started/installation/</link>
+      <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
+      
+      <guid>/getting-started/installation/</guid>
+      <description>Download Hugo theme If you have git installed, you can do the following at the command-line-interface within the Hugo directory: 下载本仓库 Browse site on http://localhost:1313</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>/getting-started/configuration/</link>
+      <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
+      
+      <guid>/getting-started/configuration/</guid>
+      <description>You may specify options in config.toml (or config.yaml/config.json) of your site to make use of this theme’s features.
+For an example of config.toml, see config.toml in exampleSite.
+Params # Source Code repository sectiondescription = &amp;quot;put your description&amp;quot;github_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot;version = &amp;quot;0.9.0&amp;quot;# Documentation repository section# documentation repository (set edit link to documentation repository)github_doc_repository = &amp;quot;https://github.com/thingsym/hugo-theme-techdoc&amp;quot;# Analytic sectiongoogle_analytics_id = &amp;quot;&amp;quot; # Your Google Analytics tracking idtag_manager_container_id = &amp;quot;&amp;quot; # Your Google Tag Manager container idgoogle_site_verification = &amp;quot;&amp;quot; # Your Google Site Verification for Search Console# Open Graph and Twitter Cards settings section# Open Graph settings for each page are set on the front matter.</description>
+    </item>
+    
+    <item>
+      <title>Screenshot</title>
+      <link>/getting-started/screenshot/</link>
+      <pubDate>Sat, 26 Oct 2019 15:26:15 +0000</pubDate>
+      
+      <guid>/getting-started/screenshot/</guid>
+      <description>Theme color Menu style Open Menu Slide Menu Edit link </description>
+    </item>
+    
+  </channel>
+</rss>
