@@ -2,7 +2,7 @@ baseURL = "/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Hugo Techdoc Theme"
+title = "Security Technology Book "
 theme = "techdoc"
 
 hasCJKLanguage = true
@@ -44,3 +44,5 @@ rssLimit = 100
     isPlainText = true
     mediaType = "application/json"
     notAlternative = true
+
+

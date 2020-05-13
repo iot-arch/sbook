@@ -1,7 +1,7 @@
 # put your description
 description = ""
 github_repository = "https://github.com/iot-arch/sbook"
-version = "0.9.0"
+version = "0.0.1"
 
 # Documentation repository section
 # documentation repository (set edit link to documentation repository)
@@ -16,7 +16,7 @@ google_site_verification = "" # Your Google Site Verification for Search Console
 # Open Graph settings for each page are set on the front matter.
 # See https://gohugo.io/templates/internal/#open-graph
 # See https://gohugo.io/templates/internal/#twitter-cards
-title = "Hugo Techdoc Theme"
+title = "security book"
 images = ["images/og-image.png"] # Open graph images are placed in `static/images`
 
 # Theme settings section
@@ -35,9 +35,9 @@ dateformat = "" # default "2 Jan 2006"
 
 # path name excluded from documentation menu
 menu_exclusion = [
-    "archives",
+#    "archives",
     "archive",
-    "blog",
+#    "blog",
     "entry",
     "post",
     "posts",

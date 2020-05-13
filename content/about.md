@@ -1,6 +1,6 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About us"
+date = "2020-04-09"
 menu = "main"
 +++
 

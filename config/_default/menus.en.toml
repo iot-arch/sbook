@@ -1,9 +1,0 @@
-[[main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
-[[main]]
-    name = "Twitter"
-    url = "/twitter"
-    weight = 2
