@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://iot-arch.github.io/sbook/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"

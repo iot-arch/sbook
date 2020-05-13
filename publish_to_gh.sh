@@ -3,9 +3,9 @@
 # git checkout --orphan gh-pages
 # git reset --hard
 # git commit --allow-empty -m "Initializing gh-pages branch"
-# git push upstream gh-pages
+# git push origin gh-pages
 # rm -rf public
-# git worktree add -B gh-pages public upstream/gh-pages
+# git worktree add -B gh-pages public origin/gh-pages
 # git checkout master
 
 #!/bin/sh
@@ -23,7 +23,7 @@ git worktree prune
 rm -rf .git/worktrees/public/
 
 echo "Checking out gh-pages branch into public"
-git worktree add -B gh-pages public upstream/gh-pages
+git worktree add -B gh-pages public origin/gh-pages
 
 echo "Removing existing files"
 rm -rf public/*
