@@ -1,4 +1,4 @@
-baseURL = "/sbook/public/"
+baseURL = "/"
 title = "sbook site"
 theme = "zdoc"
 
