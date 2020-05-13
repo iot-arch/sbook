@@ -1,11 +1,7 @@
 ---
 title: "Hello_world2"
-date: 2017-12-17T14:00:45Z
+date: 2019-12-17T14:00:45Z
 draft: false
 ---
 
-aaaaaa
-
-vvvv
-
-aaa
+这是草稿，不会显示
