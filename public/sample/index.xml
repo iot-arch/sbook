@@ -1,57 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sample Document on Security Technology Book </title>
-    <link>/sample/</link>
-    <description>Recent content in Sample Document on Security Technology Book </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 17 Oct 2019 15:26:15 +0000</lastBuildDate>
-    
-	<atom:link href="/sample/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Build-in Shortcodes</title>
-      <link>/sample/build-in-shortcodes/</link>
-      <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
-      
-      <guid>/sample/build-in-shortcodes/</guid>
-      <description>See https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes
-figure   2 People Sitting With View of Yellow Flowers during Daytime   gist  highlight 1 2 3 4 5 6 7 8  &amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt; {{ range .Data.Pages }} {{ .Render &amp;#34;summary&amp;#34;}} {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;   </description>
-    </item>
-    
-    <item>
-      <title>Custom Shortcodes</title>
-      <link>/sample/custom-shortcodes/</link>
-      <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
-      
-      <guid>/sample/custom-shortcodes/</guid>
-      <description>Alert panel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>Table of Contents</title>
-      <link>/sample/table-of-contents/</link>
-      <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
-      
-      <guid>/sample/table-of-contents/</guid>
-      <description>NoteThe TableOfContents field set to true in your content’s front matter will render a table of contents.
-TableOfContents: trueSetting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
-Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
-    </item>
-    
-    <item>
-      <title>Search Shortcode</title>
-      <link>/sample/search-shortcode/</link>
-      <pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate>
-      
-      <guid>/sample/search-shortcode/</guid>
-      <description>NoteSearch Shortcode powered by Algolia
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sample Document on Security Technology Book</title><link>/sample/</link><description>Recent content in Sample Document on Security Technology Book</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Thu, 17 Oct 2019 15:26:15 +0000</lastBuildDate><atom:link href="/sample/index.xml" rel="self" type="application/rss+xml"/><item><title>Build-in Shortcodes</title><link>/sample/build-in-shortcodes/</link><pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate><guid>/sample/build-in-shortcodes/</guid><description>See https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes
+figure 2 People Sitting With View of Yellow Flowers during Daytime gist highlight 1 2 3 4 5 6 7 8 &amp;lt;section id=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;div&amp;gt; &amp;lt;h1 id=&amp;#34;title&amp;#34;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt; {{ range .Data.Pages }} {{ .Render &amp;#34;summary&amp;#34;}} {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/section&amp;gt;</description></item><item><title>Custom Shortcodes</title><link>/sample/custom-shortcodes/</link><pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate><guid>/sample/custom-shortcodes/</guid><description>Alert panel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description></item><item><title>Table of Contents</title><link>/sample/table-of-contents/</link><pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate><guid>/sample/table-of-contents/</guid><description>Note The TableOfContents field set to true in your content’s front matter will render a table of contents.
+TableOfContents: true Setting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
+Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description></item><item><title>Search Shortcode</title><link>/sample/search-shortcode/</link><pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate><guid>/sample/search-shortcode/</guid><description>Note Search Shortcode powered by Algolia
 You can create a search page just by adding search shortcode.
-var search = instantsearch({indexName: &#39;hugo-demo-techdoc&#39;,searchClient: algoliasearch(&#39;7W4SAN4PLK&#39;,&#39;cbf12a63ff72d9c5dc0c10c195cf9128&#39;),routing: true,});const renderHits = (renderOptions, isFirstRender) = {const { hits } = renderOptions;document.querySelector(&#39;#hits&#39;).innerHTML = `${hits.map(item =`${ item.title }${ dayjs(item.lastmod).format(&#34;YYYY/MM/DD&#34;) } - ${ item.description ?</description>
-    </item>
-    
-  </channel>
-</rss>
+var search = instantsearch({ indexName: 'hugo-demo-techdoc', searchClient: algoliasearch( '7W4SAN4PLK', 'cbf12a63ff72d9c5dc0c10c195cf9128' ), routing: true, }); const renderHits = (renderOptions, isFirstRender) = { const { hits } = renderOptions; document.querySelector('#hits').innerHTML = ` ${hits .map( item = `${ item.title }${ dayjs(item.lastmod).format("YYYY/MM/DD") } - ${ item.description ?</description></item></channel></rss>
