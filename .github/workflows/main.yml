@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true  # Fetch Hugo themes
+#          submodules: true  # Fetch Hugo themes
           fetch-depth: 1    # Fetch latest layer and .Lastmod
 
       - name: Setup Hugo
