@@ -1,3 +1,3 @@
 # demo a security-books
 
-[summary](summary.md)
+[summary](SUMMARY.md)
