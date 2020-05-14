@@ -1,7 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home title on Security Technology Book</title><link>https://iot-arch.github.io/sbook/blog/</link><description>Recent content in Home title on Security Technology Book</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Tue, 17 Dec 2019 14:00:45 +0000</lastBuildDate><atom:link href="https://iot-arch.github.io/sbook/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello_world2</title><link>https://iot-arch.github.io/sbook/blog/hello_world2/</link><pubDate>Tue, 17 Dec 2019 14:00:45 +0000</pubDate><guid>https://iot-arch.github.io/sbook/blog/hello_world2/</guid><description>hello_world2 aaaaaa
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home title on Security Technology Book </title>
+    <link>https://iot-arch.github.io/sbook/blog/</link>
+    <description>Recent content in Home title on Security Technology Book </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 17 Dec 2019 14:00:45 +0000</lastBuildDate>
+    
+	<atom:link href="https://iot-arch.github.io/sbook/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello_world2</title>
+      <link>https://iot-arch.github.io/sbook/blog/hello_world2/</link>
+      <pubDate>Tue, 17 Dec 2019 14:00:45 +0000</pubDate>
+      
+      <guid>https://iot-arch.github.io/sbook/blog/hello_world2/</guid>
+      <description>hello_world2 aaaaaa
 vvvv
-aaa</description></item><item><title>Hello_world1</title><link>https://iot-arch.github.io/sbook/blog/hello_world1/</link><pubDate>Sun, 17 Nov 2019 14:00:45 +0000</pubDate><guid>https://iot-arch.github.io/sbook/blog/hello_world1/</guid><description>hello_world1 aaaaaa
+aaa</description>
+    </item>
+    
+    <item>
+      <title>Hello_world1</title>
+      <link>https://iot-arch.github.io/sbook/blog/hello_world1/</link>
+      <pubDate>Sun, 17 Nov 2019 14:00:45 +0000</pubDate>
+      
+      <guid>https://iot-arch.github.io/sbook/blog/hello_world1/</guid>
+      <description>hello_world1 aaaaaa
 vvvv
-aaa</description></item><item><title>Hello_world</title><link>https://iot-arch.github.io/sbook/blog/hello_world/</link><pubDate>Thu, 17 Oct 2019 14:00:45 +0000</pubDate><guid>https://iot-arch.github.io/sbook/blog/hello_world/</guid><description>hello_world aaaaaa
+aaa</description>
+    </item>
+    
+    <item>
+      <title>Hello_world</title>
+      <link>https://iot-arch.github.io/sbook/blog/hello_world/</link>
+      <pubDate>Thu, 17 Oct 2019 14:00:45 +0000</pubDate>
+      
+      <guid>https://iot-arch.github.io/sbook/blog/hello_world/</guid>
+      <description>hello_world aaaaaa
 vvvv
-aaa</description></item><item><title/><link>https://iot-arch.github.io/sbook/blog/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iot-arch.github.io/sbook/blog/readme/</guid><description>blog</description></item></channel></rss>
+aaa</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://iot-arch.github.io/sbook/blog/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://iot-arch.github.io/sbook/blog/readme/</guid>
+      <description>blog </description>
+    </item>
+    
+  </channel>
+</rss>
