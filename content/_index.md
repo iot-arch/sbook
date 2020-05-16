@@ -21,7 +21,7 @@ images:
 * [Table Of Contents](sample/table-of-contents/) for the page (selective)
 * [Theme color](getting-started/screenshot/#theme-color)
 * [Edit link](getting-started/screenshot/#edit-link) to documentation repository
-* [Custom ShortCodes](sample/custom-ShortCodes/)
-* [Search ShortCode](sample/search-ShortCode/) powered by [Algolia](https://www.algolia.com/)
+* [Custom ShortCodes](document/custom-shortcodes)
+* [Search ShortCode](document/search-shortcode/) powered by [Algolia](https://www.algolia.com/)
 * Open Graph
 * Analytics with Google Analytics, Google Tag Manager

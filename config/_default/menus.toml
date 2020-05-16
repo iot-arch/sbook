@@ -9,6 +9,6 @@
     url = "/post"
     weight = 2
 [[main]]
-    name = "Posts"
-    url = "/post"
+    name = "Archives"
+    url = "/archives"
     weight = 3
