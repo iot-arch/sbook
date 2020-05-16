@@ -13,9 +13,9 @@ description: "calling custom ShortCodes into your content files."
 ### Alert panel using HTML
 
 {{< panel >}}
-<strong>This is a long contents ipsum dolor sit amet</strong>, consectetur aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim venia</a>, quit.
+<strong>This is a long contents ipsum dolor sit amet</strong>, consectetur aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc"> next content </a>, quit.
 
-<strong>This is a long contents ipsum dolor sit amet</strong>, consectetur. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enid ad minim venia</a>, quid.
+<strong>This is a long contents ipsum dolor sit amet</strong>, consectetur. <a href="https://github.com/thingsym/hugo-theme-techdoc"> next content </a>, quid.
 {{< /panel >}}
 
 ### Alert panel using Markdown (use the `%` character)

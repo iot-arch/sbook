@@ -7,4 +7,4 @@ description: ""
 weight: 10
 ---
 
-Lorem Ipsum.
+Content Ipsum.

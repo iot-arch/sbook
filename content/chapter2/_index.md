@@ -7,4 +7,4 @@ weight: 30
 
 # index
 
-Lorem ipsum dolor sit.
+Content ipsum dolor sit.
