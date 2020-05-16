@@ -1,6 +1,6 @@
 ---
-title: Sample Document
-date: "2020-05-17T15:26:15.000Z"
+title: Document
+date: '2019-10-17T15:26:15.000Z'
 draft: false
 weight: 10
 description: this is a sample document.
@@ -89,7 +89,7 @@ inline code `#ffce44`
 
 ### Image
 
-![sample](../../images/pexels-photo-196666.jpeg)
+![sample](../images/pexels-photo-196666.jpeg)
 
 ### Image with link
 
