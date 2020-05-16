@@ -1,70 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sample Document on Security Technology Book </title>
-    <link>https://iot-arch.github.io/sbook/sample/</link>
-    <description>Recent content in Sample Document on Security Technology Book </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 17 Oct 2019 15:26:15 +0000</lastBuildDate>
-    
-	<atom:link href="https://iot-arch.github.io/sbook/sample/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Build-in Shortcodes</title>
-      <link>https://iot-arch.github.io/sbook/sample/build-in-shortcodes/</link>
-      <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
-      
-      <guid>https://iot-arch.github.io/sbook/sample/build-in-shortcodes/</guid>
-      <description>build-in-shortcodes See https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes
-figure gist highlight {{ .Title }}</description>
-    </item>
-    
-    <item>
-      <title>Custom Shortcodes</title>
-      <link>https://iot-arch.github.io/sbook/sample/custom-shortcodes/</link>
-      <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
-      
-      <guid>https://iot-arch.github.io/sbook/sample/custom-shortcodes/</guid>
-      <description>custom-shortcodes Alert panel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>Table of Contents</title>
-      <link>https://iot-arch.github.io/sbook/sample/table-of-contents/</link>
-      <pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate>
-      
-      <guid>https://iot-arch.github.io/sbook/sample/table-of-contents/</guid>
-      <description>table-of-contents {
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sample Document on Security Technology Book</title><link>https://iot-arch.github.io/sbook/sample/</link><description>Recent content in Sample Document on Security Technology Book</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Thu, 17 Oct 2019 15:26:15 +0000</lastBuildDate><atom:link href="https://iot-arch.github.io/sbook/sample/index.xml" rel="self" type="application/rss+xml"/><item><title>Build-in Shortcodes</title><link>https://iot-arch.github.io/sbook/sample/build-in-shortcodes/</link><pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate><guid>https://iot-arch.github.io/sbook/sample/build-in-shortcodes/</guid><description>build-in-shortcodes See https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes
+figure gist highlight {{ .Title }}</description></item><item><title>Custom Shortcodes</title><link>https://iot-arch.github.io/sbook/sample/custom-shortcodes/</link><pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate><guid>https://iot-arch.github.io/sbook/sample/custom-shortcodes/</guid><description>custom-shortcodes Alert panel Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description></item><item><title>Table of Contents</title><link>https://iot-arch.github.io/sbook/sample/table-of-contents/</link><pubDate>Thu, 17 Oct 2019 15:26:15 +0000</pubDate><guid>https://iot-arch.github.io/sbook/sample/table-of-contents/</guid><description>table-of-contents {
 } The TableOfContents field set to true in your content’s front matter will render a table of contents.
-1  TableOfContents: true   Setting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
+1 TableOfContents: true Setting the built-in .TableOfContents variables can configure what heading levels you want to include in TOC. See the built-in .TableOfContents variables settings
 {
 }
-Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
-    </item>
-    
-    <item>
-      <title>Search Shortcode</title>
-      <link>https://iot-arch.github.io/sbook/sample/search-shortcode/</link>
-      <pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate>
-      
-      <guid>https://iot-arch.github.io/sbook/sample/search-shortcode/</guid>
-      <description>search-shortcode {
+Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description></item><item><title>Search Shortcode</title><link>https://iot-arch.github.io/sbook/sample/search-shortcode/</link><pubDate>Mon, 30 Mar 2020 18:49:06 +0000</pubDate><guid>https://iot-arch.github.io/sbook/sample/search-shortcode/</guid><description>search-shortcode {
 } Search Shortcode powered by Algolia
 You can create a search page just by adding search shortcode. {
-}</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://iot-arch.github.io/sbook/sample/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://iot-arch.github.io/sbook/sample/readme/</guid>
-      <description>sample </description>
-    </item>
-    
-  </channel>
-</rss>
+}</description></item><item><title/><link>https://iot-arch.github.io/sbook/sample/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://iot-arch.github.io/sbook/sample/readme/</guid><description>sample</description></item></channel></rss>
