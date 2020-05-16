@@ -5,8 +5,8 @@
     url = "/"
     weight = 1
 [[main]]
-    name = "Books"
-    url = "/post"
+    name = "Blog"
+    url = "/blog"
     weight = 2
 [[main]]
     name = "Archives"
