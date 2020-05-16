@@ -5,7 +5,7 @@ site link : <https://iot-arch.github.io/sbook>
 [summary](SUMMARY.md)
 
 ```bash
-hugo serve -D --disableFastRender -v --verboseLog
+hugo server -D --disableFastRender -v --verboseLog
 hugo --minify
 ```
 
