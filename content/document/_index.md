@@ -93,4 +93,4 @@ inline code `#ffce44`
 
 ### Image with link
 
-![![2 People Sitting With View of Yellow Flowers during Daytime](../../images/pexels-photo-196666.jpeg)](../../images/pexels-photo-196666.jpeg)
+[![2 People Sitting With View of Yellow Flowers during Daytime](../images/pexels-photo-196666.jpeg)](../images/pexels-photo-196666.jpeg)
