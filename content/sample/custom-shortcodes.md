@@ -1,21 +1,21 @@
 ---
-title: "Custom Shortcodes"
+title: "Custom ShortCodes"
 date: 2017-10-17T15:26:15Z
 draft: false
 weight: 10
-description: "calling custom Shortcodes into your content files."
+description: "calling custom ShortCodes into your content files."
 ---
 
 ## Alert panel
 
-{{< panel >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+{{< panel >}}This is a long contents .{{< /panel >}}
 
 ### Alert panel using HTML
 
 {{< panel >}}
-<strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim venia</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<strong>This is a long contents ipsum dolor sit amet</strong>, consectetur aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim venia</a>, quit.
 
-<strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enim ad minim venia</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<strong>This is a long contents ipsum dolor sit amet</strong>, consectetur. <a href="https://github.com/thingsym/hugo-theme-techdoc">Ut enid ad minim venia</a>, quid.
 {{< /panel >}}
 
 ### Alert panel using Markdown (use the `%` character)
@@ -30,21 +30,21 @@ description: "calling custom Shortcodes into your content files."
 
 ### Alert panel with titles and colors
 
-{{< panel title="primary" >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+{{< panel title="primary" >}}This is a long contents .{{< /panel >}}
 
-{{< panel status="notice" title="notice" >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+{{< panel status="notice" title="notice" >}}This is a long contents .{{< /panel >}}
 
-{{< panel status="success" title="success" >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+{{< panel status="success" title="success" >}}This is a long contents .{{< /panel >}}
 
-{{< panel status="caution" title="caution" >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+{{< panel status="caution" title="caution" >}}This is a long contents .{{< /panel >}}
 
-{{< panel status="warning" title="warning" >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+{{< panel status="warning" title="warning" >}}This is a long contents .{{< /panel >}}
 
-{{< panel status="danger" title="danger" >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+{{< panel status="danger" title="danger" >}}This is a long contents .{{< /panel >}}
 
 ### Alert panel with Font Awesome
 
-{{< panel status="danger" title="danger" icon="fas fa-download" >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /panel >}}
+{{< panel status="danger" title="danger" icon="fas fa-download" >}}This is a long contents .{{< /panel >}}
 
 ## Button
 

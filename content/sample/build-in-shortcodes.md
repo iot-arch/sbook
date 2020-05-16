@@ -1,12 +1,16 @@
 ---
-title: "Build-in Shortcodes"
-date: 2017-10-17T15:26:15Z
+title: "Build-in ShortCodes(短代码)"
+date: 2020-05-15T15:26:15Z
 draft: false
 weight: 10
-description: "calling built-in Shortcodes into your content files."
+description: "calling built-in ShortCodes into your content files."
 ---
 
-See https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes
+See https://gohugo.io/content-management/ShortCodes/#use-hugos-built-in-ShortCodes
+
+## edit link
+
+<https://github.com/iot-arch/sbook/edit/master/content/sample/build-in-ShortCodes.md>
 
 ## figure
 

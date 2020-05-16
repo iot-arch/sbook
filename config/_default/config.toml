@@ -2,7 +2,7 @@ baseURL = "https://iot-arch.github.io/sbook/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Security Technology Book "
+title = "GB28181 Security Technology"
 theme = "techdoc"
 
 hasCJKLanguage = true

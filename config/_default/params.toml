@@ -5,7 +5,7 @@ version = "0.0.1"
 
 # Documentation repository section
 # documentation repository (set edit link to documentation repository)
-github_doc_repository = "https://github.com/iot-arch/doc"
+github_doc_repository = "https://github.com/iot-arch/sbook"
 
 # Analytic section
 google_analytics_id = "" # Your Google Analytics tracking id
@@ -27,7 +27,7 @@ custom_background_color = ""
 
 # Documentation Menu section
 # Menu style settings
-menu_style = "open-menu" # "open-menu" or "slide-menu"
+menu_style = "slide-menu" # "open-menu" or "slide-menu"
 
 # Date format
 dateformat = "" # default "2 Jan 2006"
