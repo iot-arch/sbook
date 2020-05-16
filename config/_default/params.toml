@@ -41,6 +41,7 @@ menu_exclusion = [
     "entry",
     "post",
     "posts",
+    "using-hugo",
 ]
 
 # Algolia site search section

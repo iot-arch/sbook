@@ -1,14 +1,14 @@
 ---
 author: Michael Henderson
 date: '2020-09-28T00:00:00.000Z'
-prev: /tutorials/automated-deployments
-next: /tutorials/github-pages-blog
+prev: /using-hugo/automated-deployments
+next: /using-hugo/github-pages-blog
 title: Creating a New Theme
 weight: 10
 linktitle: Creating a New Theme
 menu:
   main:
-    parent: Tutorials
+    parent: Articles
 ---
 
 # Introduction

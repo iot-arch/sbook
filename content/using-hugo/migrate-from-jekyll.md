@@ -3,8 +3,8 @@ date: '2020-03-10T00:00:00.000Z'
 linktitle: Migrating from Jekyll
 menu:
   main:
-    parent: Tutorials
-prev: /tutorials/mathjax
+    parent: Articles
+prev: /using-hugo/mathjax
 title: Migrate to Hugo from Jekyll
 weight: 10
 ---
@@ -34,7 +34,7 @@ Additionally, you'll want any files that should reside at the root \(such as `CN
 
 ## Create your Hugo configuration file
 
-Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the [Hugo configuration documentation](https://github.com/iot-arch/sbook/tree/f05540c5c5336c4ca3379be5c6fb01b2e713cbbe/overview/configuration/README.md) for details.
+Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the [Hugo configuration documentation](https://github.com/iot-arch/sbook/overview/configuration/README.md) for details.
 
 ## Set your configuration publish folder to `_site`
 
