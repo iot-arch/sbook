@@ -12,3 +12,7 @@
     name = "Archives"
     url = "/archives"
     weight = 3
+[[main]]
+    name = "Articles"
+    url = "#"
+    weight = 4
